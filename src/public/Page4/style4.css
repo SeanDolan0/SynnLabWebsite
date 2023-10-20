@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  font-family: "Hind Siliguri", sans-serif;
+}
+header {
+  text-align: center;
+  border-bottom: 2px solid #000000;
+  color: green;
+}
+nav {
+  text-align: right;
+  padding-right: 10px;
+  border-bottom: 2px solid #000000;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: green;
+}
+li a:hover {
+  box-shadow: inset 100px 0 0 0 gold;
+}
+#logo {
+  height: 0px;
+  width: 0px;
+  transform: scale(0.035);
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.intro {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  font-size: 75%;
+  font-style: italic;
+  background-color: #c1c1c1;
+  border-top: 2px solid #000000;
+  padding: 10px;
+}
+footer a {
+  color: blue;
+}
